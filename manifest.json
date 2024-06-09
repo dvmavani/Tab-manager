@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "TabWizz",
+  "version": "1.0",
+  "description": "Manage and organize your open tabs into collections.",
+  "permissions": ["tabs", "storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "64": "mainIcon64.png",
+      "128": "mainIcon.png"
+    }
+  }
+}
